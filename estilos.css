@@ -55,8 +55,9 @@ section {
 }
 
 .card-img-top {
-    max-height: 250px;
-    object-fit: cover;
+    width: 100%;              /* Ocupa todo el ancho disponible */
+    height: 280px;            /* Ajusto la altura de las imágenes */
+    object-fit: cover;        /* Mantiene la proporción sin distorsionar */
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
